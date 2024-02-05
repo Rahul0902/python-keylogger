@@ -2,7 +2,7 @@
 In this project, I built a straightforward Python keylogger from scratch. This hands-on experience helped me grasp how easily a basic keylogger can be developed and how it functions.
 
 <h2>How It Works</h2>
-When the keylogger.py script is executed, it records keystrokes and appends them to the file 'keylog.txt'.<br><br>
+When the keylogger.py script is executed, it records keystrokes and appends them to the file 'keylog.txt'.
 
 <h3>Scenario:</h3>
 Imagine the keylogger.py script is running on a target system. If the user logs into a platform like Social Media X, our keylogger captures every keystroke, providing access to the target's username and password.
